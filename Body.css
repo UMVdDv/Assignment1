@@ -1,0 +1,52 @@
+header
+    {
+        background-color: beige;
+        color: tomato;
+        text-emphasis: italic;
+        text-align: center;
+        text-shadow: 1cm;
+        text-size-adjust: 30pt;
+    }
+footer
+    {
+        background-color: beige;
+        color: tomato;
+        text-emphasis: italic;
+        text-align: center;
+        text-shadow: 1cm;
+        text-size-adjust: 30pt;
+    }
+
+main
+    {
+        color: black;
+        text-align: center;
+        text-size-adjust: 15pt;
+    }
+            section {
+                background-color: beige;
+                padding: 20px;
+            }
+            .section2{
+                background-color: bisque;
+                padding: 20px;
+
+            }
+            .section3{
+                background-color: antiquewhite;
+                padding: 20px;
+            }
+            .section4{
+                background-color: ivory;
+                padding: 20px;
+
+            }
+            .section5{
+                background-color: blanchedalmond;
+                padding: 20px;
+
+            }
+    
+
+
+
