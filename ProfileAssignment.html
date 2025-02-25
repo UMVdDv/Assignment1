@@ -7,26 +7,38 @@
         <meta name="author" content="Vladimir Dvorkin">
         <meta name="description" content="This site contains profile information for a fictional figure John Doe">
         <meta name="keywords" content="html,John Doe, Profile, Connect, Phone, Dm, Socials">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="Test.css">
         <title>John Doe's Profile</title>
     </head>
+    <body>
+    <div class = "box">
 
-    <body> 
                 <!-- Body Area, Displayed -->
             <header>
-                <div class = "box0">
+                <div class = "box0 p ul jostfont a a:hover hoverScale filtration">
                     <h1> <b>Hello, I am John Doe </b></h1>
                     <p> 
                         Here you will find my contact information, social links, and work that I have been a part of. It is a glance into who I am , what I do, and how I can connect and help you in whatever ventures you endeavor.
                     </p>
+                    <ul>
+                        <a href = "#about">About</a></li>
+                        <a href = "#freelance">Freelance</a></li>
+                        <a href = "#projects">Projects</a></li>
+                        <a href = "#links">Links</a></li>
+                        <a href = "#images">Images</a></li>
+
+                    </ul>
                 </div>
             </header>
 
             
             <main> 
                 <!-- Sec1 for intro-->
-                <section1>
-                    <div class="box">
+                <section1 id="about">
+                    <div class="box em">
                         <h2><em> 
                             About me:
                         </em> </h2>
@@ -37,8 +49,8 @@
                 </section1>
 
                 <!-- Sec2 for freelance description -->
-            <div class = "box2"> 
-                <section2>
+            <div class = "box jostfont"> 
+                <section2 id="freelance">
                     <h2><em>
                         I am a freelancer and provide services to aid you personally or professionally: 
                     </em></h2>
@@ -49,7 +61,7 @@
             
 
                 <!-- Sec3 for ordered projects -->
-                <section3>
+                <section3 id="projects">
                     <h3>
                         Here are my favorite projects I worked on in order: 
                     </h3>
@@ -70,7 +82,8 @@
             
 
                 <!-- Sec4 for unorder links -->
-                <section4>
+                 <div class=" a:hover">
+                 <section4 id="links">
                     <h4>Here are my social links:</h4>
                     <p>
                         <ul>
@@ -87,11 +100,12 @@
                         </ul>
                     </p>
                 </section4>
-
+            </div>
 
                 <!-- Sec5 for images -->
-                <section5>
-                    <h5> Image Gallery </h5>
+                 <div class = "gallery">
+                <section5 id="images">
+                    <h5>Image Gallery</h5>
                         <figure>
                         <img src="John.jpeg" alt="Me on site at work" width="200">
                         <figcaption> <i> Me on site at work </i> </figcaption>
@@ -107,13 +121,14 @@
                         <figcaption> <i>Website I designed for a client</i> </figcaption>
                     </figure>
                 </section5>
+                </div>  
             </div>
                 
                 
             </main>
 
 
-            <div class = "box"><footer>
+            <div class = " filtration hoverScale box0 p"><footer>
                 <p>
                     Feel free to dm me personally, I am avaliable and respond quickly. Always down to collaborate and create.
                 </p>
@@ -122,8 +137,9 @@
                 </i></p>
             </footer></div>
 
-   
+    </div>
     </body>
+    
 
     </html>
 

@@ -1,42 +1,82 @@
 div{
-    border: solid;
-    align-items: center;
-    
-    
+    margin: 0%;
+    padding: 0%;
 }
+
+
 .box0{
-        background-color: gainsboro;
-        color: maroon;
+    align-items: center;
         text-emphasis: italic;
-        text-align: center;
-        text-shadow: 1cm;
         text-size-adjust: 30pt;
-        width: 75%; 
-        margin: 25px;
-        padding: 20px;
+        width: auto; 
+        margin: 1%;
+        padding: 1%;
         align-items: center;
-
-
+        text-align: center;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,40,9,1) 26%, rgba(0,212,255,1) 100%);    
+        color:white;
+       
+       
 }
+
+
+
 .box{
     color: white;
-    border:solid 2px gray;
-    background-color: maroon;
-    width:75%;
-    margin: 25px;
-    padding: 20px;
-    align-items: center;
-
-
-}
-.box2{
-    border:solid 2px gray;
-    background-color: gainsboro;
-    width:75%;
-    margin: 25px;
-    padding: 20px;
-    align-items: center;
-
-
+    width: auto;
+    margin: 1%;
+    padding: 1%;
+    text-size-adjust: 20px;
+    align-items: center; 
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,40,9,1) 26%, rgba(0,212,255,1) 100%);    
 }
 
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+  }
+
+.hoverScale:hover{
+    transform: scale(1.25);
+}
+
+.jostfont {
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 10;
+    font-style: italic;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: (1, 3fr);
+    gap: 10px;
+    max-width: 25%;
+    max-height:25%;
+}
+.gallery img {
+    width: 50%;
+    height: 50%;
+    display: block;
+}
+p {
+    font-size: 30px;
+ }
+ ul {
+    font-weight: 300;
+    font-family:inherit;
+    font-size: larger;
+ }
+ em{
+    stroke-width: 50%;
+ }
+ .filtration{
+    filter:sepia(50%)
+ }
+ 
