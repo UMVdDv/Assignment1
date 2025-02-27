@@ -7,49 +7,71 @@
         <meta name="author" content="Vladimir Dvorkin">
         <meta name="description" content="This site contains profile information for a fictional figure John Doe">
         <meta name="keywords" content="html,John Doe, Profile, Connect, Phone, Dm, Socials">
-        <meta name="John Doe" content="html">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Test.css">
         <title>John Doe's Profile</title>
     </head>
+    <body>
+    <div class = "box">
 
-    <body> 
                 <!-- Body Area, Displayed -->
-            <header>
-                <h1> <b>Hello, I am John Doe </b></h1>
+        <header>
+            <div class = "box0 a a:hover hoverScale filtration p ul jostfont  ">
+                <h1> 
+                    <b>
+                        Hello, I am John Doe 
+                    </b>
+                </h1>
                 <p> 
                     Here you will find my contact information, social links, and work that I have been a part of. It is a glance into who I am , what I do, and how I can connect and help you in whatever ventures you endeavor.
                 </p>
-            </header>
+                <ul>
+                    <a href = "#about"> About</a></li>
+                    <a href = "#freelance">Freelance</a></li>
+                    <a href = "#projects">Projects</a></li>
+                    <a href = "#links">Links</a></li>
+                    <a href = "#images">Images</a></li>
+
+                </ul>
+            </div>
+        </header>
 
             
             <main> 
                 <!-- Sec1 for intro-->
-                <section1>
-                    <h1><em> 
-                        About me:
-                    </em> </h1>
-                    <p2> 
-                        I am a 40 year old civil engineer and freelancer living in Riyadh. Connect with me on my socials and get to know my work. You can find my phone number, instagram, telegram, and bluesky below.
-                    </p2>
+                <section1 id="about">
+                    <div class="box em">
+                        <h2>
+                            <em> 
+                                About me:
+                            </em> 
+                        </h2>
+                        <p> 
+                            I am a 40 year old civil engineer and freelancer living in Riyadh. Connect with me on my socials and get to know my work. You can find my phone number, instagram, telegram, and bluesky below.
+                        </p>
+                    </div>
                 </section1>
-                
 
                 <!-- Sec2 for freelance description -->
-                <section2>
+                <div class = "box jostfont"> 
+                <section2 id="freelance">
                     <h2><em>
                         I am a freelancer and provide services to aid you personally or professionally: 
                     </em></h2>
-                    <p2>
+                    <p>
                         My services include creating custom logos, branding, and digital assets for your brand or business, photo and video editing, and design projects of moderate scale. Should any kind of other work interest you, do reach out. 
-                    </p2>
+                    </p>
                 </section2>
             
 
                 <!-- Sec3 for ordered projects -->
-                <section3>
+                <section3 id="projects"> 
                     <h3>
                         Here are my favorite projects I worked on in order: 
                     </h3>
-                    <p2>
+                    <p>
                         <ol>
                             <li>
                                 KAFD
@@ -61,14 +83,15 @@
                                 Digital City
                             </li>
                         </ol>
-                    </p2>
+                    </p>
                 </section3>
             
 
                 <!-- Sec4 for unorder links -->
-                <section4>
+                <div class=" a:hover">
+                 <section4 id="links">
                     <h4>Here are my social links:</h4>
-                    <p2>
+                    <p>
                         <ul>
                             <li>
                                 <a href="https://www.bsky.app">Bluesky</a>
@@ -81,44 +104,49 @@
                             </li>
                         
                         </ul>
-                    </p2>
+                    </p>
                 </section4>
-
+                </div>
 
                 <!-- Sec5 for images -->
-                <section5>
-                    <h5> Image Gallery </h5>
-                        <figure1>
-                        <img src="John.jpeg" alt="Me on site at work" width="200">
-                        <figcaption> <i> Me on site at work </i> </figcaption>
-                        </figure1>
+                <div class = "images">
+                <section5 id="images">
+                    <h5>Image Gallery</h5>
+                        <figure>
+                            <img src="John.jpeg" alt="Me on site at work" width="200">
+                            <figcaption> <i> Me on site at work </i> </figcaption>
+                        </figure>
 
-                    <figure2>
-                        <img src="Centre.jpeg" alt="Project I was part of" width="200">
-                        <figcaption> <i> Project I was part of </i> </figcaption>
-                    </figure2>
+                        <figure>
+                            <img src="Centre.jpeg" alt="Project I was part of" width="200">
+                            <figcaption> <i> Project I was part of </i> </figcaption>
+                        </figure>
 
-                    <figure3>
-                        <img src="Freelance.jpg" alt="Website I designed for a client" width="200">
-                        <figcaption> <i>Website I designed for a client</i> </figcaption>
-                    </figure3>
+                        <figure>
+                            <img src="Freelance.jpg" alt="Website I designed for a client" width="200">
+                            <figcaption> <i>Website I designed for a client</i> </figcaption>
+                        </figure>
                 </section5>
+                </div>                
                 
             </main>
 
-
-            <footer>
+        <footer>
+            <div class = " filtration hoverScale box0 p em">
                 <p>
                     Feel free to dm me personally, I am avaliable and respond quickly. Always down to collaborate and create.
                 </p>
                 <p> <i>
                     My number is (+699) 123 456 7890
                 </i></p>
-            </footer>
+            </div>
+        </footer>
 
-   
+    </div>
     </body>
+    
 
     </html>
+
 
     
